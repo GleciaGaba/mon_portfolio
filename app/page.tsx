@@ -4,6 +4,7 @@ import { Hero } from "./_components/Hero";
 import { Spacing } from "./_components/Spacing";
 import { Status } from "./_components/Status";
 import { Skills } from "./_components/Skills";
+import { Contact } from "lucide-react";
 
 
 export default function Home() {
@@ -23,7 +24,11 @@ export default function Home() {
 
           <Spacing size="md"/>
 
-          <Skills
+          <Skills />
+
+          <Spacing size="md"/>
+          
+          <Contact />
         </main>
       </div>
       }

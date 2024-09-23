@@ -1,14 +1,9 @@
-import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
-import { cn } from "@/lib/utils";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import Link from "next/link";
+import { Code } from "./Code";
 
-const Code = ({className,...props}: ComponentPropsWithoutRef<"span">) => {
-    return <span className={cn("bg-accent/30 font-mono border hover:bg-accent/70 transition-colors border-accent p-1 text-primary rounded-sm m-1",className)}{...props}/>
-        
-   
-}
+
 
 export const Hero = () => {
     return (
@@ -19,7 +14,7 @@ export const Hero = () => {
                 <p> I'm a Full Stack Developer. I love to build things and learn new technologies. 
                     I am currently enrolled in an Application Developer training program focused on Java/Spring and React. However, I have also included Python in my skill set, having learned it independently outside of the formal curriculum.  
                 </p>
-                <p className="font-bold">All my work is available on {" "}
+                <p className="font-bold">All my personal work is available on {" "}
                     <Link href="https://github.com/GleciaGaba">
                     <Code className="inline-flex items-center gap-1">
                         <GithubIcon size={14} className="inline" />

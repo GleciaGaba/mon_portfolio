@@ -31,7 +31,7 @@ export const Skills = () => {
                     </h3>
                     <p 
                     className="text-sm text-muted-foreground">
-                        During my initial training as a web developer, I worked primarily with the Angular framework. However, I decided to specialize in <Code>React</Code> because I enjoyed its flexibility and simplicity in building user interfaces. The way <Code>React</Code> facilitates the creation of reusable components and its seamless integration with other libraries were also key factors that attracted me.
+                        During my initial training as a web developer, I worked primarily with the <Code>Angular</Code> framework. However, I decided to specialize in <Code>React</Code> because I enjoyed its flexibility and simplicity in building user interfaces. The way React facilitates the creation of reusable components and its seamless integration with other libraries were also key factors that attracted me.
                     </p>
                 </div>
                 <div className="flex flex-col gap-2">
@@ -42,10 +42,9 @@ export const Skills = () => {
                     </h3>
                     <p 
                     className="text-sm text-muted-foreground">
-                        I primarily worked with <Code>Java</Code>. I spent over a year working on a legacy <Code>Java</Code> project, which provided me with valuable experience in maintaining and enhancing existing codebase. However, I decided to deepen my expertise in modern Java development because I enjoy its robust ecosystem and versatility. The language’s strong community support and its wide range of frameworks and tools make it ideal for building scalable and high-performance applications.
+                        I primarily worked with <Code>Java</Code>, spending over a year on a legacy Java project, which provided me with valuable experience in maintaining and enhancing an existing codebase. I have also worked with the <Code>Spring</Code> framework, which allowed me to explore modern Java development and its robust ecosystem. I enjoy Java’s versatility, strong community support, and its wide range of frameworks and tools that make it ideal for building scalable and high-performance applications.
                     </p>
                 </div>
-                  
             </div>
             
             
@@ -58,7 +57,7 @@ export const Skills = () => {
                     </h3>
                     <p 
                     className="text-sm text-muted-foreground">
-                    I spent a year working on a <Code>Python</Code> project, and I found the experience highly rewarding. Since then, I have been continuously honing my <Code>Python</Code> skills, as I am particularly drawn to the language’s elegance and versatility. Its simplicity and powerful libraries make it ideal for a wide range of applications, from data analysis to web development.
+                        I spent a year working on a <Code>Python</Code> project, and I found the experience highly rewarding. Since then, I have been continuously honing my Python skills, particularly enjoying its elegance and versatility. I have worked with frameworks like <Code>Django</Code> and <Code>Flask</Code>, which have deepened my appreciation for Python’s simplicity and powerful libraries. 
                     </p>
                 </div>
 

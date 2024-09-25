@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Popcorn, CircleDollarSign, BookOpenText, GlobeLock} from "lucide-react";
+import { Popcorn, CircleDollarSign, BookOpenText, GlobeLock, Store} from "lucide-react";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
@@ -36,16 +36,17 @@ export const Status = () => {
                     ))}
                 </div>
                 </Card>
-                <Card className="p-2 flex-1">
+                <Card className="p-1 flex-1">
                     <p className="text-lg text-muted-foreground font-bold">CONTACT ME</p>
-                    <a href="https://www.linkedin.com/in/maindron-glecia/" target="_blank" rel="noopener noreferrer">
-                        <ContactCard 
-                            name="Glécia Maindron" 
-                            image="https://avatars.githubusercontent.com/u/45296020?v=4" 
-                            mediumImage="https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1735171200&v=beta&t=99gt4jymtRkPtcjUb8hIalO7Qz5QjqwzmrW9xGXgLhI" 
-                            description="My LinkedIn"
-                        />
-                    </a>
+                    <ContactCard 
+                        url="https://www.linkedin.com/in/maindron-glecia/"
+                        name="Glécia Maindron" 
+                        image="https://avatars.githubusercontent.com/u/45296020?v=4" 
+                        mediumImage="https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1735171200&v=beta&t=99gt4jymtRkPtcjUb8hIalO7Qz5QjqwzmrW9xGXgLhI" 
+                        description="My LinkedIn"
+
+                    />
+                    
                 </Card>
             </div>
         </Section>
@@ -56,27 +57,27 @@ export const Status = () => {
 
 const SIDE_PROJECTS: SideProjectProps[] = [
     {
-        Logo: BookOpenText,
-        title: "Books To Scrape",
-        description: "Projects I've built for fun and learning purposes.",
-        url: "https://github.com/GleciaGaba/books_to_scrape",
+        Logo: Store,
+        title: "Gaba Store",
+        description: "E-commerce website built with Java/Spring and Angular.",
+        url: "https://github.com/GleciaGaba/GabaStore-bke",
     },
     {
         Logo: GlobeLock,
         title: "Password Generator",
-        description: "Projects I've built for fun and learning purposes.",
+        description: "Project built with Python for learning purposes.",
         url: "https://github.com/GleciaGaba/password-generator-",
     },
     {
         Logo: Popcorn,
         title: "Cine Club",
-        description: "Projects I've built for fun and learning purposes.",
+        description: "Project built with Python for learning purposes.",
         url: "https://github.com/GleciaGaba/cine_club",
     },
     {
         Logo: CircleDollarSign,
         title: "Convertisseur De Devises",
-        description: "Projects I've built for fun and learning purposes.",
+        description: "Project built with Python for learning purposes.",
         url: "https://github.com/GleciaGaba/convertisseur_de_devises",
 
     },

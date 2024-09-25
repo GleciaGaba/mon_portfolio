@@ -1,4 +1,4 @@
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Section } from "./Section";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { cn } from "@/lib/utils";

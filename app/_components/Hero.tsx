@@ -11,7 +11,7 @@ export const Hero = () => {
             <div className="flex-[3] w-full flex flex-col gap-2">
                 <h2 className="font-caption text-5xl text-primary">Glécia MAINDRON</h2>
                 <h3 className="text-3xl font-caption">Software Developer</h3>
-                <p> I'm a Full Stack Developer. I love to build things and learn new technologies. 
+                <p> I am a Full Stack Developer. I love to build things and learn new technologies. 
                     I am currently enrolled in an Application Developer training program focused on Java/Spring and React. However, I have also included Python in my skill set, having learned it independently outside of the formal curriculum.  
                 </p>
                 <p className="font-bold">All my personal work is available on {" "}

@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Popcorn, CircleDollarSign, BookOpenText, GlobeLock, Store} from "lucide-react";
+import { Popcorn, CircleDollarSign, GlobeLock, Store} from "lucide-react";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";

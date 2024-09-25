@@ -6,8 +6,8 @@ import { ContactCard } from "./ContactCard";
 
 const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/mon_cv.pdf";
-    link.download = "mon_cv.pdf";
+    link.href = "/gleciamaindron.pdf";
+    link.download = "gleciamaindron.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

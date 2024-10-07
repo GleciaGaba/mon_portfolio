@@ -63,10 +63,10 @@ const SIDE_PROJECTS: SideProjectProps[] = [
         url: "https://github.com/GleciaGaba/GabaStore-bke",
     },
     {
-        Logo: GlobeLock,
-        title: "Password Generator",
-        description: "Project built with Python for learning purposes.",
-        url: "https://github.com/GleciaGaba/password-generator-",
+        Logo: Popcorn,
+        title: "Movies Reviews",
+        description: "Movie Review Application",
+        url: "https://github.com/GleciaGaba/movies_back_front",
     },
     {
         Logo: Popcorn,

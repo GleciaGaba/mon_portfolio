@@ -64,7 +64,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
     },
     {
         Logo: Popcorn,
-        title: "Movies Reviews",
+        title: "Movie Reviews",
         description: "Movie Review Application",
         url: "https://github.com/GleciaGaba/movies_back_front",
     },

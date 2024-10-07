@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
-import { Popcorn, CircleDollarSign, GlobeLock, Store} from "lucide-react";
+import { Popcorn, CircleDollarSign, Store, Film} from "lucide-react";
 import { SideProject, SideProjectProps } from "./SideProject";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
@@ -63,7 +63,7 @@ const SIDE_PROJECTS: SideProjectProps[] = [
         url: "https://github.com/GleciaGaba/GabaStore-bke",
     },
     {
-        Logo: Popcorn,
+        Logo: Film,
         title: "Movie Reviews",
         description: "Movie Review Application",
         url: "https://github.com/GleciaGaba/movies_back_front",

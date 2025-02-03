@@ -20,7 +20,7 @@ export const ContactCard = (props: {
           />
           <img
             src={props.mediumImage}
-            alt={props.name}
+            alt={`${props.name} medium`}
             className="w-5 h-5 absolute -bottom-1 -right-1 rounded-full object-cover border-2 border-white"
           />
         </div>

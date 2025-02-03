@@ -24,7 +24,7 @@ export const Contact = () => {
           url="https://www.linkedin.com/in/maindron-glecia/"
           name="Glécia Maindron"
           image="https://avatars.githubusercontent.com/u/45296020?v=4"
-          mediumImage="https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1735171200&v=beta&t=99gt4jymtRkPtcjUb8hIalO7Qz5QjqwzmrW9xGXgLhI"
+          mediumImage="/linkedin-logo.png"
           description="My LinkedIn"
         />
         <div onClick={downloadCV} style={{ cursor: "pointer" }}>
@@ -32,7 +32,7 @@ export const Contact = () => {
             url=""
             name="Glécia Maindron"
             image="https://avatars.githubusercontent.com/u/45296020?v=4"
-            mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxidFC-3_rrWsH-exwGf4K14r0rRjQRGR73H6XiDoB71xB2VHS3F3cZlORTUArPl3V40&usqp=CAU"
+            mediumImage="mycv-logo.png"
             description="My CV"
           />
         </div>
@@ -40,7 +40,7 @@ export const Contact = () => {
           url="mailto:gleciparis@gmail.com"
           name="gleciaparis@gmail.com"
           image="https://avatars.githubusercontent.com/u/45296020?v=4"
-          mediumImage="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_mail_gmail_logo_icon_159346.png"
+          mediumImage="gmail-logo.png"
           description="My Gmail"
         />
       </div>
